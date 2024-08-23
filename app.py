@@ -1,7 +1,5 @@
 from flask import Flask, request, jsonify
-import hashlib
-import base64
-from utils import shorten_url, expand_url, url_mapping
+from utils import shorten_url, expand_url
 
 app = Flask(__name__)
 
